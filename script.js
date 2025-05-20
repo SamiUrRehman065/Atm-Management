@@ -65,11 +65,16 @@ returnBtnlogin.addEventListener('click', () => {
 
 depositBtn.addEventListener('click', ()=> {
         const value= depositInput.value;
+        if(Number(value)<=0){
+         showAlert(value);
+         return;
+        }else{
         const depositValue= Number(deposit.innerText)+Number(value);
         const balanceValue= Number(balance.innerText)+Number(value);
         deposit.innerText= depositValue;
         balance.innerText= balanceValue;
         depositInput.value='';
+       }
      });
 
 
