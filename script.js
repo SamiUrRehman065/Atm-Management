@@ -36,7 +36,7 @@ submitBtn.addEventListener('click', () => {
     
     
 const validateCredentials = (inputEmail, inputPassword) => {
-        const validEmail = "fa23bscs0022@maju.edu.pk";
+        const validEmail = "example@gmail.com";
         const validPassword = "123456789";
     
         return inputEmail === validEmail && inputPassword === validPassword;
