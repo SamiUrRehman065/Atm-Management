@@ -58,7 +58,7 @@ ATM-Management/
    ```
 2. Open `index.html` in your browser  
 3. Use the following credentials to log in:
-   - **Email:** `fa23bscs0022@maju.edu.pk`
+   - **Email:** `example@gmail.com`
    - **Password:** `123456789`
 
 ---
@@ -107,6 +107,3 @@ It reflects my growth in front-end development and my ability to build clean, in
 
 Contributions are welcome!  
 Feel free to open an issue or submit a pull request if you have suggestions or improvements.
-
-```
-
